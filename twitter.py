@@ -6,7 +6,7 @@ from textblob import TextBlob # Textblob: a Python library for processing textua
 from wordcloud import WordCloud # Wordcloud: a Python library to create a word cloud of common words / phrases
 import pandas as pd # Pandas: a data analysis and manipulation tool
 import numpy as np # Numpy: create a mask for wordcloud
-import re # regular expression operation for removing ch5aracters when cleaning tweets
+import re # regular expression operation for removing characters when cleaning tweets
 import matplotlib.pyplot as plt # for plotting graph
 import plotly.graph_objects as go # for creating gauge
 from PIL import Image # for saving outputs as image files
@@ -240,7 +240,7 @@ def printRecentKeywordTweets(keywordTweets):
     print(" ")
     i = i + 1
 
-# ********************************************* End of ther functions **************************************************** #
+# ********************************************* End of other functions **************************************************** #
 
 
 

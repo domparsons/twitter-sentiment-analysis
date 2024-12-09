@@ -69,9 +69,7 @@ As of 2024, **Twitter no longer offers a free API**, which means that the API ca
 ```plaintext
 sentiment-analysis-twitter/
 ├── cloudMask/
-│   ├── mask.png                # Mask image for the word cloud
-├── data/
-│   ├── tweet_data.csv          # Example CSV for tweets (optional)
+│   └── mask.png                # Mask image for the word cloud
 ├── sentiment_analysis.py       # Main script for sentiment analysis
 ├── requirements.txt            # List of dependencies
 └── README.md                   # Project documentation

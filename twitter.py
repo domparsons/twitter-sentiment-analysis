@@ -31,10 +31,10 @@ class TwitterConnector:
   def __init__(self):
     # Set up the values for the connector
     # If the account used to access the Twitter API were to change, the value pairs for the tokens would be changed here
-    self.TwitterAccessKeys["consumerKey"] = "UH0w6z4XBfKhySCpPgHKB3Beo"
-    self.TwitterAccessKeys["consumerSecret"] = "5WvEbU63Lu2jrAW7XALO1jfJ542F9cJoZlzeCuct0SBXhbsQER"
-    self.TwitterAccessKeys["accessToken"] = "919970217148764161-iqIFHvmm7UNTF3gHHL7OYfWMM8XKPmZ"
-    self.TwitterAccessKeys["accessTokenSecret"] = "t2VnWGCyJER6i7adyQYRELD8Hh8liYL8k6QLjdXgTwDMd"
+    self.TwitterAccessKeys["consumerKey"] = ""
+    self.TwitterAccessKeys["consumerSecret"] = ""
+    self.TwitterAccessKeys["accessToken"] = ""
+    self.TwitterAccessKeys["accessTokenSecret"] = ""
     
   def setUpConnection(self):
     # Create the authentication object

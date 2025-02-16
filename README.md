@@ -32,20 +32,13 @@ As of 2024, **Twitter no longer offers a free API**, which means that the API ca
     cd sentiment-analysis-twitter
     ```
 
-2. Set up a virtual environment (optional but recommended):
+2. Set up a virtual environment and install the required dependencies:
 
     ```bash
-    python -m venv env
-    source env/bin/activate  # On Windows: env\Scripts\activate
+    uv sync
     ```
 
-3. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Obtain Twitter API access:
+3. Obtain Twitter API access:
     - Due to changes in Twitter’s API policy, you will need access to a paid Twitter Developer account to use this project. Update the `TwitterConnector` class with your own API keys if you have access.
 
 ---

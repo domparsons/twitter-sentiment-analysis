@@ -14,3 +14,16 @@ dependencies = [
     "tweepy>=4.15.0",
     "wordcloud>=1.9.4",
 ]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.9.6",
+]
